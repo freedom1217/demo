@@ -1,0 +1,14 @@
+<p>header works!</p>
+{{name}}
+
+
+<!-- <a href="{{name}}">google</a>-->
+<!--屬性綁定-->
+<!--<a [href]="name">google</a> -->
+
+<!--事件綁定-->
+<button (click)="sayHi('123')">click</button>
+
+<!--雙向綁定-->
+<input type="text" [(ngModel)]="url">
+<a [href]="url">Link</a>
